@@ -1,0 +1,30 @@
+STL - Standard Template Library
+
+STL can be divided into
+    1 - Containers
+        - pre-implemented data structures inside STL.
+        - these containers can be further divided into: 
+            1. Sequential Containers - elements stored in sequential order as initialized
+                - Vectors, stacks, queue, array, deque, list, pair(not a container)
+            2. Ordered (associative) containers - elements stored in sorted order either ascending or descending
+                - Maps, Multimap, set, mutliset
+            3. Unordered containers - elements stored are not sorted 
+                - unordered map, unordered set
+        - Nested Containers - containers inside containers
+            - vector <vector<int>>
+            - map <int, vector <int>>
+            - set <pair<int, string>> 
+
+
+    2 - Iterators
+        - points to the memory location of containers
+        - vector <int>::iterator it;
+
+
+    3 - Algorithms
+        - Optimized algorithms already implemented inside STL.
+        - upper_bound(), lower_bound(), sort(), max(), min(), reverse(), count(), find()
+    
+
+    4 - Functors (not necessary for competitive programmimg)
+        - Classes which can as as functions
